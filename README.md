@@ -1,6 +1,7 @@
 # Golang Mux Project
 ## Routes
+Methods: GET, POSTJ
 ```
-bash
+localhost:8080/hello
 localhost:8080/bird
 ```
