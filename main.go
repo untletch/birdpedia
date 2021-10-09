@@ -76,6 +76,8 @@ func main() {
 	InitStore(&dbStore{db: db})
 
 	r := newRouter()
+
+	fmt.Println("Server started at http://localhost:8080")
 	http.ListenAndServe(":8080", handlers.LoggingHandler(os.Stdout, r))
 }
 
